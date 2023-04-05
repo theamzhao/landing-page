@@ -7,6 +7,7 @@ body {
 .footer {
     background-color: #1F2937;
     color: white;
+    height: 100px;
 }
 
 .header {
@@ -16,12 +17,39 @@ body {
     padding: 0px 64px;
 }
 
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+a:hover {
+    color: #3882F6;
+}
+
 .awesome {
     background-color: #1F2937;
     display: flex;
-    padding: 20px 100px;
+    justify-content: center;
+    padding: 20px 20%;
     color: #FFF;
-    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0px
+}
+
+.signup {
+    margin-right: 20px;
+    color: #eee;
+    font-weight: 100;
 }
 
 .bigimg {
@@ -56,6 +84,11 @@ button {
     border: none;
     border-color: #060c14;
 }
+
+button:hover {
+    background-color: #1e488d;
+    color: white;
+  }
 
 .info {
     display: flex;
@@ -113,7 +146,10 @@ h3 {
 h5 {
     max-width: 800px;
     font-size: 20px;
-    margin: 15px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: 20%;
+    text-align: right;
 }
 
 .callout {
@@ -146,4 +182,11 @@ h5 {
 h4 {
     font-size: 18px;
     margin: 0px 0px 0px; 
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
