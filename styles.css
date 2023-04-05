@@ -18,8 +18,16 @@ body {
 .awesome {
     background-color: #1F2937;
     display: flex;
-    padding: 64px;
+    padding: 20px 100px;
     color: #FFF;
+    align-items: center;
+}
+
+.bigimg {
+    display: block;
+    min-width: 300px;
+    width: 400px;
+    height: 160px;
 }
 
 h2 {
@@ -28,11 +36,35 @@ h2 {
     color: #1F2937;
 }
 
+.signup {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    align-self:first baseline;
+    background-color: #3882F6;
+    color: #FFF;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    border-color: #060c14;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: ;
+    flex: 0 1 auto;
     padding: 100px;
+    margin: auto;
+    max-width: 800px;
 }
 
 .cards {
@@ -74,6 +106,14 @@ h3 {
     font-weight: 100;
     font-size: 36px;
     color: #1F2937;
+    max-width: 800px;
+    margin: auto;
+}
+
+h5 {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 15px 0px 0px;
 }
 
 .callout {
